@@ -1,0 +1,275 @@
+/* NAVIGATION BAR */
+header
+{
+  background-color:#e5707e ;
+}
+head{
+  padding-left: 100px;
+}
+.navbar-head
+{
+  display: block;
+}
+.navbar-img
+{
+  width:48px;
+  height:48px;
+  object-fit:cover;
+}
+
+.dropdown-item:hover {
+    }
+   .dropdown-item:hover .drop-inner
+   {
+     display: inline-block;
+   }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: pink;}
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* DOWNLOAD BUTTONS */
+.download-button
+{
+  font-size:1.4rem;
+  margin :2px;
+  height:3rem;
+  width: 8rem;
+  padding-top:0px;
+}
+/* SKILLS SECTION */
+.skills{
+  margin-top: 50px;
+}
+.middle-container
+{
+  padding:10px 0;
+  background-color: #fdffbc;
+}
+.middle-container p,h3,h4
+{
+    color: #30475e;
+}
+ a{
+  text-decoration: none;
+}
+.skill-row a:hover{
+    color: purple;
+}
+.skill-row
+{
+  line-height: 2;
+  text-align: left;
+  margin: 150px auto;
+  /*background-color: grey;
+  display: inline-block;*/
+  width : 50%
+}
+
+div.skill-img :hover{
+  width:75%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+.left-img
+{
+  margin-right: 30px;
+  /*margin-bottom: 20px;*/
+  float : left;
+  width: 50%;
+  height: 50%;
+border-radius:  100px;
+
+}
+.right-img
+{
+  margin-left: 30px;
+  float : right;
+  width: 50%;
+  height:50%;
+border-radius:  100px;
+}
+
+.img2
+{
+position: absolute;
+left : 400px ;
+bottom :300px ;
+}
+.img1
+{
+  position :absolute;
+  right:400px;
+  top : 50px;
+
+}
+
+
+/* carousel */
+
+
+/* carousel */
+.video{
+  padding:100px 0;
+  background-color: #ffeebb;
+}
+.slide-img1{
+  height :1500px;
+  width :1000;
+}
+
+
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  background-color: #ffdcb8;
+
+}
+.section-heading
+{
+color:#30475e;
+text-align: center;
+}
+#pricing h4,p
+{
+
+  color:#fff;
+}
+#pricing a{
+  color: #fff;
+}
+#pricing a:hover{
+  color: blue;
+}
+.style-card
+{
+  padding: 3% 2%;
+}
+.price-text
+{
+  line-height: 1.5;
+  /* font-size: 1rem; */
+}
+img {
+max-width: 110%;
+height: 500px;
+}
+.container {
+  position: relative;
+
+}
+.text-block {
+
+  text-align: center;
+  position: absolute;
+  top :20px;
+  left :auto;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* feature */
+#features
+{
+  padding: 7% 15%;
+  position: relative;
+  /* bottom: 100px; */
+  background-color: #ffc1b6;
+
+}
+#features h3,a
+{
+  color: #fff;
+}
+.icon{
+    color: #fff;
+  width : 5rem;
+  height :8rem;
+}
+#features a:hover{
+  color: blue;
+}
+
+
+
+
+
+/* footer */
+footer{
+  background-color: #ff8585;
+  color :
+}
+.footer-one{
+  /* text-align: center; */
+  margin: 30px 70px;
+
+  display: inline-block;
+}
+.footer-logo
+{
+  width:70px;
+  height:50px;
+}
+.footer-text
+{
+  padding: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer-icons{
+  width:25px;
+  height: 25px;
+}
+.footer-links{
+  margin-left: 150px;
+  display: inline-block;
+}
+.foooter-para{
+  padding-left: 95px;
+}
+
+.blk
+{
+  margin-left:500px;
+}
+
+
+.carousel-caption
+{
+  margin-bottom:20%;
+  padding 50px 100px;
+}
